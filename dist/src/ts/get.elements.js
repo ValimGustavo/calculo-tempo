@@ -1,0 +1,1 @@
+export function getElementsList() {var items = document.querySelectorAll('#list > li');var times = [];items.forEach((function (item) {times.push(item.innerHTML);}));return times;}//# sourceMappingURL=get.elements.js.map

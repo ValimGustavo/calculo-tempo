@@ -1,0 +1,18 @@
+{
+  "name": "ponto-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "posbuild": "yarn ts-js",
+    "tsc-watch": "clear && tsc --watch",
+    "prets-js": "yarn build",
+    "ts-js": "clear && tsc built/built.ts && node built/built.js",
+    "test": "clear && tsc ./mock/mock.ts && node ./mock/mock.js",
+    "start": "yarn ts-js"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

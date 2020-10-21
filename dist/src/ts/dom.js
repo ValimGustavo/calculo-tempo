@@ -1,0 +1,1 @@
+export function setValueInElement(elem, value) {var elementSelected = document.querySelector(elem);if (elementSelected instanceof HTMLInputElement) {elementSelected.value = value;}else if (elementSelected instanceof HTMLElement) {elementSelected.innerText = value;}}export function addElement(element, target) {target.appendChild(element);}//# sourceMappingURL=dom.js.map
